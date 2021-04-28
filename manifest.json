@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Address Viewer",
+  "version": "1.0",
+  "description": "For different currency, address, contract, netwrok.",
+  "author": "isistang1234",
+  "icons": {
+    "16": "icon_16.png"
+  },
+  "permissions": [
+    "contextMenus", 
+    "tabs"
+  ],
+  "background": {
+    "scripts": [ "main.js" ]
+  }
+}
